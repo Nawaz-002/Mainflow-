@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>HTML Semantics</title>
+
+        <style>
+          * {
+            margin: 0;
+            padding: 0;
+            font-family: monospace;
+          }
+
+          ul {
+            list-style-type: none;
+            height: 275px;
+            width: 315px;
+            padding: 0;
+            margin: 0;
+            background-color: #333333;
+            font-family:Arial, Helvetica, sans-serif;
+           }
+
+           li {
+           float:none;
+           }
+
+           li a{
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            text-decoration: none;
+           }
+
+           li a:hover{
+            background-color: #111111;
+           }
+
+           h1 {
+             background-color: antiquewhite;
+             font-size:large;
+             text-align: center;
+             padding: 40px;
+             font-size: 50px;
+           }
+           section{
+            display: flex;
+           }
+
+           main{
+            background-color: aquamarine;
+            height: 225px;
+            width: 1000px;
+            padding: 25px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            font-size: 100%;
+           }
+
+           main h2{
+             font-size: 40px;
+             color:brown;
+           }
+
+           main article{
+            border-radius: 10px;
+            margin-top: 15px;
+            font-size: 30px;
+            padding: 15px;
+            background-color: cadetblue;
+           }
+
+        </style>
+    </head>
+
+    <h1><b>Header</b></h1>
+    <section>
+        <nav>
+            <ul>
+               <li><a href="stylesheet1"  title="Go to Sheet1">StyleSheet1</a></li>
+               <li><a href="stylesheet2"  title="Go to Sheet2">StyleSheet2</a></li>
+               <li><a href="stylesheet3"  title="Go to Sheet3">StyleSheet3</a></li>
+               <li><a href="stylesheet4"  title="Go to Sheet4">StyleSheet4</a></li>
+               <li><a href="stylesheet5"  title="Go to Sheet5">StyleSheet5</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h2>Main Content</h2>   
+            <article>Content1</article>
+            <article>Content2</article>
+        </main>
+    </section>
+        <footer>
+            <h1><b>Footer</b></h1>
+        </footer>
+</html>
